@@ -1,4 +1,4 @@
-import {Requests, Round} from '../src/play'
+import {Requests} from '../src/play'
 
 describe('play function', () => {
     beforeEach(() => {
