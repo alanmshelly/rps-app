@@ -15,8 +15,8 @@
     "jasmine": "latest"
   },
   "scripts": {
-    "compile-app": "watchify src/*.js -o bundled/compiledApp.js -t [ babelify ]",
-    "compile-test": "watchify spec/*Spec.js -o bundled/compiledWebSpec.js -t [ babelify ]"
+    "compile-app": "watchify src/*.jsx --extension=.jsx -o bundled/compiledApp.js -t [ babelify ]",
+    "compile-test": "watchify spec/*Spec.jsx --extension=.jsx -o bundled/compiledWebSpec.js -t [ babelify ]"
   },
   "browserify": {
     "transform": [
